@@ -1,11 +1,9 @@
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   nav#navbar {
-    height: 0;
+    height: 0vh;
     overflow: hidden;
-    transition: all 400ms ease-out;
   }
-  nav#navbar.active {
-    height: 100vh;
-    overflow: hidden;
+  nav#navbar.animate__lightSpeedInLeft {
+    height: 90vh;
   }
 }
