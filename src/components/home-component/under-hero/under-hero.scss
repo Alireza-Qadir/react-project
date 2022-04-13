@@ -6,14 +6,22 @@ height: 100vh;
 background-color: blueviolet;
 
 
-& #box{
+&  #box-child{
 
-    // width: 25%;
-    // height: 60vh;
-    margin:3px;
+transition:500ms;
+
+&:hover{
+
+filter: none;
+transition: 400ms;
+transform: scale(0.9);
 
 
 
+
+   
+}
 }
 
 }
+

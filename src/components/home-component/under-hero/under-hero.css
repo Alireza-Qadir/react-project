@@ -4,6 +4,22 @@
   background-color: blueviolet;
 }
 
-#under-hero #box {
-  margin: 3px;
+#under-hero #box-child {
+  transition: 500ms;
+}
+
+#under-hero #box-child:hover {
+  filter: none;
+  transition: 400ms;
+  transform: scale(0.9);
+}
+
+
+@media (max-width: 1023px) {
+
+  #under-hero #box-child:hover {
+    transform: none !important;
+    transition: none;
+
+}
 }
