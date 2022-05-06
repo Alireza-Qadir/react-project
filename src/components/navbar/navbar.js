@@ -1,5 +1,5 @@
 import React , {useState} from "react";
-import {Link , BrowserRouter as Router} from "react-router-dom";
+import {Link } from "react-router-dom";
 import { Divide as Hamburger } from 'hamburger-react'
 
 import 'remixicon/fonts/remixicon.css';
@@ -23,7 +23,7 @@ import "./navbar.scss"
      
        return(
      
-     <Router>
+     <>
        <div className="lg:hidden md:flex sm:flex flex justify-between "> 
              <Hamburger toggled={isOpen} toggle={setOpen} />
 
@@ -58,35 +58,35 @@ import "./navbar.scss"
      
      <ul className="lg:w-6/12  flex lg:flex-row md:flex-col sm:flex-col flex-col justify-evenly text-gray-600 ">
          <li className="cursor-pointer py-1 px-0.5 hvr-underline-from-center">
-             <Link to="/#" className="text-base">
+             <Link to="/#" className="text-base text">
                 <i class="ri-home-7-line relative top-0.5 right-0.5"/>
                  Home
              </Link>
          </li>
      
          <li className="cursor-pointer py-1 px-0.5 ">
-             <Link to="/#" className="text-base">
+             <Link to="/#" className="text-base text">
                  <i class="ri-customer-service-2-line relative top-0.5 right-1"/>
                  Services
              </Link>
          </li>
      
          <li className="cursor-pointer py-1 px-0.5 ">
-             <Link to="/#" className="text-base">
+             <Link to="/product" className="text-base text">
                  <i class="ri-shopping-bag-3-line relative top-0.5 right-0.5"/>
                  Products
              </Link>
          </li>
      
          <li className="cursor-pointer py-1 px-0.5 ">
-             <Link to="/#" className="text-base">
+             <Link to="/#" className="text-base text">
                  <i class="ri-information-line relative top-0.5 right-0.5"/>
                  About Us
              </Link>
          </li>
      
-         <li className="cursor-pointer py-1 px-0.5 r">
-             <Link to="/#" className="text-base">
+         <li className="cursor-pointer py-1 px-0.5 ">
+             <Link to="/#" className="text-base text">
                  <i class="ri-contacts-book-line relative top-0.5 right-1"/>
                  Contact Us
              </Link>
@@ -125,7 +125,7 @@ import "./navbar.scss"
      
      </nav>
      
-     </Router>
+     </>
      
      )
      

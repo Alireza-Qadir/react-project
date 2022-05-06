@@ -1,7 +1,14 @@
+#slider-hero
+{
+  height: calc(100vh - 110px);
+  // height: 100vw;
+  // width: 100%;
+  // height: 85vh;
+}
 
-#slider-hero{
-
-height : calc(100vh - 110px);
-
-
+#slider-hero  img.slider-img
+{
+  width: 100vw;
+  // height: 100vh;  
+  height: calc(100vh - 110px) !important;
 }

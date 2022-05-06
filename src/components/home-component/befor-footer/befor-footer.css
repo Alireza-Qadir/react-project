@@ -1,0 +1,15 @@
+#title{
+
+border-top-left-radius: 170px;
+border-top-right-radius: 170px;
+/* border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px; */
+}
+
+#parent{
+
+
+
+    width: 50%;
+    background-color: purple;
+}

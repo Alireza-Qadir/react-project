@@ -28,7 +28,7 @@ const SliderHero = () =>{
       const numOfSlider = [1,2,3,4,5]
 return(
 
-<div className="w-full  overflow-hidden" id="slider-hero">
+<div className="w-full overflow-hidden" id="slider-hero">
         <Slider {...settings}>
 
 
@@ -41,7 +41,7 @@ return(
                   
                   <div key={index}>
 
-                    <img src={`./images/slider-hero/city${item}.jpg`} />
+                    <img src={`./images/slider-hero/city${item}.jpg`} alt="images for slider" className="slider-img" />
                
                   </div>
                   )

@@ -1,1 +1,1 @@
-#under-hero{widows:100%;height:100vh;background-color:blueviolet}#under-hero #box-child{transition:500ms}#under-hero #box-child:hover{filter:none;transition:400ms;transform:scale(0.9)}
+#under-hero{widows:100%}#under-hero #box-child{transition:500ms}#under-hero #box-child:hover{filter:none;transition:400ms;transform:scale(0.9)}
