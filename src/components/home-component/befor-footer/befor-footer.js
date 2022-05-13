@@ -63,12 +63,16 @@ const TitleBox = () =>{
 
 
 
-               <div className='w-6/12'>
+               <div className='w-6/12 text-center'>
                    
                   
                    <h3 className="text-center text-2xl font-serif font-bold">Touch The Quality With Us</h3>
                   <p className="mt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Neque gravida in fermentum et sollicitudin ac. Ipsum consequat nisl vel pretium lectus quam. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Ut venenatis tellus in metus. Tempus urna et pharetra pharetra massa massa ultricies mi quis.</p>
-                  <span>read more</span>
+                  <span className="frame">
+
+                      <button className="custom-btn btn-15">Read More</button>
+
+                  </span>
                   </div>
            
            
@@ -82,7 +86,6 @@ const TitleBox = () =>{
 
 
 
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </section>
 
 

@@ -15,7 +15,7 @@ const UnderHero = () =>{
 
      <div>
         <h1 className="text-2xl text-center my-2" id="title"> 
-           NEW COLLACTION
+           NEW COLLECTION
         </h1>
         <div id='under-hero' className='grid lg:grid-cols-4 gap-1 md:grid-cols-2  '>
 
@@ -29,7 +29,7 @@ const UnderHero = () =>{
                 <div key={index} id='box' className='h-64' >
   
                     
-                    <img src={`./images/under-hero/car0${item}.jpg`} className='w-full h-full rounded-xl lg:grayscale' id="box-child" />
+                    <img src={`./images/under-hero/car0${item}.jpg`} alt='nothing' className='w-full cursor-pointer h-full rounded-xl lg:grayscale' id="box-child" />
 
                 
                 </div>

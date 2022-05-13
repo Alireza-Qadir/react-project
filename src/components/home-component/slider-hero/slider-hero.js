@@ -15,12 +15,12 @@ const SliderHero = () =>{
     const settings = {
         fade: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 750,
+        speed: 1000,
         autoplaySpeed: 2000,
+        arrows: false,
         cssEase: "linear"
       };
 

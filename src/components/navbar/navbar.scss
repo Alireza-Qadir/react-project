@@ -1,8 +1,11 @@
 nav#header ul li a::after
 {
+  position: absolute;
   content: "";
   width: 0;
   height: 2px;
+  top: 0;
+  right: 0;
   background-color: #5252d6;
   display: block;
   position: relative;
@@ -13,7 +16,7 @@ nav#header ul li a::after
 nav#header ul li a:hover::after
 {
   width: 100%;
-  background-color: #181880;
+  left: 0;
 }
 
 

@@ -63,7 +63,15 @@ import "./navbar.scss"
                  Home
              </Link>
          </li>
-     
+
+         <li className="cursor-pointer py-1 px-0.5 ">
+             <Link to="/product" className="text-base text">
+                 <i className="ri-shopping-bag-3-line relative top-0.5 right-0.5"/>
+                 Products
+             </Link>
+         </li>
+
+
          <li className="cursor-pointer py-1 px-0.5 ">
              <Link to="/#" className="text-base text">
                  <i class="ri-customer-service-2-line relative top-0.5 right-1"/>
@@ -71,13 +79,7 @@ import "./navbar.scss"
              </Link>
          </li>
      
-         <li className="cursor-pointer py-1 px-0.5 ">
-             <Link to="/product" className="text-base text">
-                 <i class="ri-shopping-bag-3-line relative top-0.5 right-0.5"/>
-                 Products
-             </Link>
-         </li>
-     
+
          <li className="cursor-pointer py-1 px-0.5 ">
              <Link to="/#" className="text-base text">
                  <i class="ri-information-line relative top-0.5 right-0.5"/>
